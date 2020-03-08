@@ -108,6 +108,7 @@ S2 := evalf[16](( 1 - 2^(1-h) ) * Zeta (h) );
   s := 0:
   j := 0:
 
+    
   while j &gt;= 0 do
 
     t :=  evalf( 1/(1+j)^x );
